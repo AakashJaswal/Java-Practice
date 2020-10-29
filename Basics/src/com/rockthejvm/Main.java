@@ -10,6 +10,8 @@ public class Main {
 
         // Variable
         int aNumber = 4;
+        double test = 4/0.0;
+        System.out.println(test);
 
 
         //Primitive types
