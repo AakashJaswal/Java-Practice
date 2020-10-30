@@ -6,13 +6,15 @@ import java.util.Scanner;
 public class IntegerOperation {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter Big Integer");
-//        BigInteger v1 = new BigInteger(sc.next());
-//        System.out.println("Enter no to divide with");
-//        BigInteger div = BigInteger.valueOf(sc.nextLong());
-//        System.out.println("Enter no to multiply with with");
-//        BigInteger result = v1.divide(div).multiply(new BigInteger(sc.next()));
-//        System.out.println(result);
+        System.out.println("Enter Big Integer");
+        BigInteger v1 = new BigInteger(sc.next());
+        System.out.println("Enter no to divide with");
+        BigInteger div = BigInteger.valueOf(sc.nextLong());
+        System.out.println("Enter no to multiply with with");
+        BigInteger result = v1.divide(div).multiply(new BigInteger(sc.next()));
+        System.out.println(result);
+
+        System.out.println("Sample Factorial Program, enter a no:");
         System.out.println(fact(sc.nextInt()));
     }
         static BigInteger fact(int n){
