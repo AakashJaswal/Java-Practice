@@ -10,7 +10,8 @@ public class Main {
 
         // Variable
         int aNumber = 4;
-        double test = 4/0.0;
+        double test = 4 / 0.0;
+        double test = 4 / 0.0;
         System.out.println(test);
 
 
@@ -96,8 +97,6 @@ public class Main {
 
         //Static members and methods, no need ot instantiate class to access this
         boolean canFly = Person.canFly;
-
-
 
 
     }//end of main
