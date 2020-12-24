@@ -15,7 +15,7 @@ public class Main {
 
 
         //Primitive types
-        boolean aTruthValue = true; /// 1 bytes
+        boolean aTruthValue = true; /// 1 bit
         char anChar = 'a'; // 2 bytes
         int anInteger = 20; // 4 bytes
         float aDecimal = 2.3f; // 4 bytes
@@ -70,10 +70,16 @@ public class Main {
             newCounter++;
         }
 
+        int[] ar = {1,2,3,4};
 
         //Simple for loop
-        for (int i = 0; i < 10; i++) {
-            //System.out.println(i+1);
+        for (int i = 0; i < ar.length; i++) {
+            System.out.print(ar[i]+ " ");
+        }
+        System.out.println();
+        //For Each loop
+        for(int a : ar){
+            System.out.print(a + " ");
         }
 
 
